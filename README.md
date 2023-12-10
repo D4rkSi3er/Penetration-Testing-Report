@@ -7,7 +7,9 @@ There are, generally speaking, 5 phases all pen testers will go through when per
 Each phase I've included here contains information I've gathered and included in my personal pen testing notes.
 
 The Five Phases
+
 **Phase 1. Reconnaissance**
+
 Purpose: Gather information about the target system or network to understand the potential attack surface.
 Techniques:
 Open-source intelligence (OSINT) gathering: Collect publicly available information from sources like social media, search engines, and public databases.
