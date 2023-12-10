@@ -1,5 +1,5 @@
 
-##**Understanding the Five Phases of the Penetration Testing Process**
+## Understanding the Five Phases of the Penetration Testing Process
 
 Penetration testing is the process of identifying the security vulnerabilities in a system or network and trying to exploit them. The results of penetration tests play a vital role in finding and patching security flaws.
 Penetration testing techniques work by orchestrating security attacks on your network. A pen test differs from a vulnerability assessment in that it goes beyond conducting an automated scan of vulnerabilities and actually involves the manual exploitation of identified vulnerabilities by network security experts.
@@ -8,7 +8,7 @@ Each phase I've included here contains information I've gathered and included in
 
 The Five Phases
 
-##**Phase 1. Reconnaissance**
+## Phase 1. Reconnaissance
 
 Purpose: Gather information about the target system or network to understand the potential attack surface.
 Techniques:
@@ -36,7 +36,7 @@ Tool: dnsrecon
 Command: dnsrecon -d example.com -t std
 Explanation: The above command utilizes the dnsrecon tool to perform DNS enumeration for the target domain "example.com" using standard mode. This command can reveal subdomains, associated IP addresses, and other DNS-related information.
 
-##**Phase 2. Vulnerability Assessment**
+## Phase 2. Vulnerability Assessment
 
 Purpose: Identify vulnerabilities and weaknesses in the target system.
 Techniques:
@@ -73,7 +73,7 @@ Tool: Metasploit Framework
 Command: msfconsole
 Explanation: The above command opens the Metasploit console, which provides an extensive collection of exploit modules and payloads for testing and exploiting vulnerabilities. It allows penetration testers to search for specific exploits, configure options, and launch attacks against vulnerable systems.
  
-##**Phase 3. Exploitation**
+## Phase 3. Exploitation
 
 Purpose: Exploit identified vulnerabilities to gain unauthorized access or control over the target system.
 Generalized List of Vulnerabilities:
@@ -104,7 +104,7 @@ Buffer Overflow
 Weak Authentication
 Service Exploitation
  
-##**Phase 4. Post-Exploitation**
+## Phase 4. Post-Exploitation
 
 Purpose: Exploit the compromised system further, escalate privileges, and maintain persistence.
 Privilege Escalation Methods:
@@ -131,7 +131,7 @@ Lateral Movement:
 Expanding access to other systems within the network by compromising additional hosts.
 Example: Exploiting vulnerabilities in network services or using stolen credentials.
  
-##**Phase 5. Documenting Findings & Reporting**
+## Phase 5. Documenting Findings & Reporting
 
 Purpose: Compile and present the findings, vulnerabilities, and recommendations discovered during the penetration testing engagement.
 
