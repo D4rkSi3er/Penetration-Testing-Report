@@ -37,6 +37,7 @@ Command: dnsrecon -d example.com -t std
 Explanation: The above command utilizes the dnsrecon tool to perform DNS enumeration for the target domain "example.com" using standard mode. This command can reveal subdomains, associated IP addresses, and other DNS-related information.
 
 **Phase 2. Vulnerability Assessment**
+
 Purpose: Identify vulnerabilities and weaknesses in the target system.
 Techniques:
 Vulnerability scanning: Use automated tools to scan for known vulnerabilities by comparing system configurations and software versions against a vulnerability database.
@@ -73,6 +74,7 @@ Command: msfconsole
 Explanation: The above command opens the Metasploit console, which provides an extensive collection of exploit modules and payloads for testing and exploiting vulnerabilities. It allows penetration testers to search for specific exploits, configure options, and launch attacks against vulnerable systems.
  
 **Phase 3. Exploitation**
+
 Purpose: Exploit identified vulnerabilities to gain unauthorized access or control over the target system.
 Generalized List of Vulnerabilities:
 Remote Code Execution (RCE): Exploiting vulnerabilities that allow executing arbitrary code on the target system.
@@ -103,6 +105,7 @@ Weak Authentication
 Service Exploitation
  
 **Phase 4. Post-Exploitation**
+
 Purpose: Exploit the compromised system further, escalate privileges, and maintain persistence.
 Privilege Escalation Methods:
 Local Privilege Escalation:
@@ -129,6 +132,7 @@ Expanding access to other systems within the network by compromising additional 
 Example: Exploiting vulnerabilities in network services or using stolen credentials.
  
 **Phase 5. Documenting Findings & Reporting**
+
 Purpose: Compile and present the findings, vulnerabilities, and recommendations discovered during the penetration testing engagement.
 
 Methodology:
